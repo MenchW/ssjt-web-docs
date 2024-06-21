@@ -1,0 +1,28 @@
+{
+  "name": "hntc-ssjt-docs",
+  "version": "1.0.0",
+  "description": "集团信息化项目文档站点",
+  "main": "index.js",
+  "scripts": {
+    "doc": "vuepress dev docs --temp .temp",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "wumengqi",
+  "license": "MIT",
+  "dependencies": {
+    "@hntc/components": "workspace:^",
+    "@hntc/configs": "workspace:^",
+    "@hntc/directive": "workspace:^",
+    "@hntc/utils": "workspace:^",
+    "@riophae/vue-treeselect": "0.4.0",
+    "element-ui": "^2.15.14"
+  },
+  "devDependencies": {
+    "vue-server-renderer": "2.6.12",
+    "vuepress": "^1.9.10",
+    "vuepress-plugin-one-click-copy": "^1.0.2",
+    "vuepress-plugin-sitemap": "^2.3.1",
+    "vuepress-plugin-thirdparty-search": "^1.0.2",
+    "vuepress-theme-vdoing": "^1.12.9"
+  }
+}
